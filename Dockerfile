@@ -19,6 +19,9 @@ WORKDIR /usr/src/app
 # Copy your application files to the container
 COPY . .
 
+# removing lock
+RUN sudo rm -rf /var/lib/apt/lists/lock
+
 # Install necessary dependencies
 RUN sudo apt-get update && apt-get install -y openjdk-11-jdk maven
 
