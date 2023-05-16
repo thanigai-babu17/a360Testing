@@ -18,3 +18,5 @@ steps:
       - "--platform"
       - "managed"
       # Add other Cloud Run deployment options as needed
+options:
+  logging: CLOUD_LOGGING_ONLY
