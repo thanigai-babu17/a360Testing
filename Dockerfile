@@ -37,7 +37,7 @@ RUN apt-get update -qqy \
     libgconf-2-4 \
     libnss3 \
     libatk-bridge2.0-0 \
-    libdbus-glib-1-2 \
+    libdbus-glib-1-2 \    
     && rm -rf /var/lib/apt/lists/* /var/cache/apt/* \
     && wget -q -O /tmp/firefox.tar.bz2 https://download-installer.cdn.mozilla.net/pub/firefox/releases/$FIREFOX_VERSION/linux-x86_64/en-US/firefox-$FIREFOX_VERSION.tar.bz2 \
     && tar xjf /tmp/firefox.tar.bz2 -C /opt \
@@ -90,6 +90,15 @@ COPY . .
 # RUN mkdir -p /root/.m2 \
 #     && chown -R root:root /root/.m2 \
 #     && chmod -R 755 /root/.m2
+
+COPY start-xvfb.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/start-xvfb.sh
+
+#!/bin/bash
+Xvfb :99 -screen 0 1024x768x24 -ac +extension RANDR +extension RENDER -noreset &
+export DISPLAY=:99
+exec "$@"
+
 
 # Run the tests with Firefox
 CMD ["start-xvfb.sh","mvn", "-X","test", "-Dbrowser=firefox"]
