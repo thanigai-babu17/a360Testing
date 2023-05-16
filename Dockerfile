@@ -18,6 +18,9 @@ RUN wget -q -O /tmp/chromedriver.zip https://chromedriver.storage.googleapis.com
     && rm /tmp/chromedriver.zip \
     && chmod +x /usr/local/bin/chromedriver
 
+# Check if chromedriver file exists
+RUN test -f /usr/local/bin/chromedriver
+
 # Set the working directory
 WORKDIR /app
 
