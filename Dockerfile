@@ -101,5 +101,5 @@ COPY . .
 
 
 # Run the tests with Firefox
-CMD ["mvn", "-X","test", "-Dbrowser=firefox","-DDisplay=99"]
+CMD ["mvn", "-X","test", "-Dbrowser=firefox","-DDISPLAY=99"]
 
