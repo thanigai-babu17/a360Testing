@@ -44,7 +44,7 @@
 
 steps:
   # Step 1: Set up the environment
-  - name: "gcr.io/cloud-builders/maven:3.8.4"
+  - name: "maven:3.8.1-openjdk-11"
     entrypoint: "bash"
     args:
       - "-c"
@@ -53,7 +53,7 @@ steps:
         mvn --version
 
   # Step 2: Build and run tests
-  - name: "gcr.io/cloud-builders/maven:3.8.4"
+  - name: "maven:3.8.1-openjdk-11"
     entrypoint: "bash"
     args:
       - "-c"
