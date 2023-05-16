@@ -12,14 +12,14 @@ RUN apt-get update -qqy \
 # Set ChromeDriver version
 ARG CHROME_DRIVER_VERSION=92.0.4515.107
 
-# Download and install ChromeDriver
+# Download and extract ChromeDriver
 RUN wget -q -O /tmp/chromedriver.zip https://chromedriver.storage.googleapis.com/$CHROME_DRIVER_VERSION/chromedriver_linux64.zip \
-    && unzip /tmp/chromedriver.zip -d /usr/local/bin/ \
+    && unzip /tmp/chromedriver.zip -d /app/Drivers/ \
     && rm /tmp/chromedriver.zip \
-    && chmod +x /usr/local/bin/chromedriver
+    && chmod +x /app/Drivers/chromedriver
 
 # Verify if chromedriver file exists
-RUN ls -la /usr/local/bin/
+RUN ls -la /app/Drivers/
 
 # Set the working directory
 WORKDIR /app
