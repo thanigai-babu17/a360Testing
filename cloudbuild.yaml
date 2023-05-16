@@ -1,4 +1,15 @@
 steps:
+  # Build the Docker image
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["build", "-t", "gcr.io/aroma-gfunc/cucumber-tests", "."]
+    args:
+      - "build"
+      - "-t"
+      - "gcr.io/aroma-gfunc/ar360-test"
+      - "."
+
+images:
+  - "gcr.io/aroma-gfunc/ar360-test"
 
 options:
   logging: CLOUD_LOGGING_ONLY
