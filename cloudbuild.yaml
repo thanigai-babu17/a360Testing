@@ -6,3 +6,6 @@ steps:
   # Step 2: Run the tests inside the Docker container
   - name: "gcr.io/cloud-builders/docker"
     args: ["run", "--rm", "my-app-image", "mvn", "clean", "install"]
+
+options:
+  logging: CLOUD_LOGGING_ONLY
