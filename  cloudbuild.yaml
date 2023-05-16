@@ -1,0 +1,25 @@
+steps:
+  # Build the Maven project
+  - name: "maven:3.8.1-jdk-11"
+    entrypoint: "mvn"
+    args: ["clean", "install"]
+
+  # Build the Docker image
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["build", "-t", "gcr.io/aroma-gfunc/cucumber-tests", "."]
+
+  # Push the Docker image to Container Registry
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["push", "gcr.io/aroma-gfunc/cucumber-tests"]
+
+  # Deploy the Docker image to Cloud Run
+  - name: "gcr.io/cloud-builders/gcloud"
+    args:
+      - "run"
+      - "deploy"
+      - "cucumber-tests"
+      - "--image"
+      - "gcr.io/aroma-gfunc/cucumber-tests"
+      - "--platform"
+      - "managed"
+      # Add other Cloud Run deployment options as needed
