@@ -21,23 +21,47 @@
 # options:
 #   logging: CLOUD_LOGGING_ONLY
 
+# steps:
+#   # Build the Docker image
+#   - name: "gcr.io/cloud-builders/docker"
+#     args:
+#       - "build"
+#       - "-t"
+#       - "gcr.io/aroma-gfunc/ar360-test"
+#       - "."
+
+#   # Push the Docker image to GCR
+#   - name: "gcr.io/cloud-builders/docker"
+#     args:
+#       - "push"
+#       - "gcr.io/aroma-gfunc/ar360-test"
+
+# images:
+#   - "gcr.io/aroma-gfunc/ar360-test"
+
+# options:
+#   logging: CLOUD_LOGGING_ONLY
+
 steps:
-  # Build the Docker image
-  - name: "gcr.io/cloud-builders/docker"
+  # Step 1: Set up the environment
+  - name: "gcr.io/cloud-builders/maven:3.8.4"
+    entrypoint: "bash"
     args:
-      - "build"
-      - "-t"
-      - "gcr.io/aroma-gfunc/ar360-test"
-      - "."
+      - "-c"
+      - |
+        apt-get update && apt-get install -y firefox
+        mvn --version
 
-  # Push the Docker image to GCR
-  - name: "gcr.io/cloud-builders/docker"
+  # Step 2: Build and run tests
+  - name: "gcr.io/cloud-builders/maven:3.8.4"
+    entrypoint: "bash"
     args:
-      - "push"
-      - "gcr.io/aroma-gfunc/ar360-test"
+      - "-c"
+      - |
+        export DISPLAY=:0
+        mvn clean test -Dbrowser=firefox
 
-images:
-  - "gcr.io/aroma-gfunc/ar360-test"
-
+# Timeout setting (optional)
+timeout: "30m"
 options:
   logging: CLOUD_LOGGING_ONLY
