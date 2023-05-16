@@ -2,20 +2,20 @@ FROM maven:3.8.6-jdk-11
 
 # Firefox
 
-RUN apt-get update && apt-get install -y \
-    xvfb \
-    xauth \
-    x11vnc \
-    libgtk-3-0 \
-    libasound2 \
-    libxtst6 \
-    libxss1 \
-    libgconf-2-4 \
-    libnss3 \
-    libatk-bridge2.0-0 \
-    libgtk-3-0 \
-    libx11-xcb1 \
-    libdbus-glib-1-2
+# RUN apt-get update && apt-get install -y \
+#     xvfb \
+#     xauth \
+#     x11vnc \
+#     libgtk-3-0 \
+#     libasound2 \
+#     libxtst6 \
+#     libxss1 \
+#     libgconf-2-4 \
+#     libnss3 \
+#     libatk-bridge2.0-0 \
+#     libgtk-3-0 \
+#     libx11-xcb1 \
+#     libdbus-glib-1-2
 
 COPY start-xvfb.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/start-xvfb.sh
