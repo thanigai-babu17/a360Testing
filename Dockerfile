@@ -9,6 +9,9 @@ RUN apt-get update -qqy \
     && apt-get -qqy install google-chrome-stable \
     && rm -rf /var/lib/apt/lists/* /var/cache/apt/*
 
+# Create the Drivers directory
+RUN mkdir -p /app/Drivers/
+
 # Set ChromeDriver version
 ARG CHROME_DRIVER_VERSION=92.0.4515.107
 
@@ -18,14 +21,14 @@ RUN wget -q -O /tmp/chromedriver.zip https://chromedriver.storage.googleapis.com
     && rm /tmp/chromedriver.zip \
     && chmod +x /app/Drivers/chromedriver
 
-# Verify if chromedriver file exists
-RUN ls -la /app/Drivers/
-
 # Set the working directory
 WORKDIR /app
 
 # Copy the source code into the container
 COPY . .
+
+# Verify if chromedriver file exists
+RUN ls -la /app/Drivers/
 
 # Run the tests with Chrome
 CMD ["mvn", "test", "-Dbrowser=chrome"]
