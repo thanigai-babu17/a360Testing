@@ -27,13 +27,13 @@ WORKDIR /app
 # Copy the source code into the container
 COPY . .
 
-# Set the custom path for GeckoDriver
-ENV PATH="/usr/src/app/Drivers/geckodriver.exe"
+# # Set the custom path for GeckoDriver
+# ENV PATH="/usr/src/app/Drivers/geckodriver.exe"
 
-# Change ownership and permissions of .m2 directory
-RUN mkdir -p /root/.m2 \
-    && chown -R root:root /root/.m2 \
-    && chmod -R 755 /root/.m2
+# # Change ownership and permissions of .m2 directory
+# RUN mkdir -p /root/.m2 \
+#     && chown -R root:root /root/.m2 \
+#     && chmod -R 755 /root/.m2
 
 # Run the tests with Firefox
 CMD mvn test -Dbrowser=firefox
