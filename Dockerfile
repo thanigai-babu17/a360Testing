@@ -27,6 +27,8 @@ RUN apt-get update \
     && mkdir -p /var/lib/apt/lists/partial \
     && apt-get clean \
     && apt-get autoclean
+RUN chown -R seluser:seluser /usr/src/app
+
 USER seluser
 
 # Set the PATH to include GeckoDriver
