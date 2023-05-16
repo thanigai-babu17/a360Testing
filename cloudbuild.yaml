@@ -1,9 +1,4 @@
 steps:
-  # Build the Maven project
-  - name: "maven:3.8.1-jdk-11"
-    entrypoint: "mvn"
-    args: ["clean", "install"]
-
   # Build the Docker image
   - name: "gcr.io/cloud-builders/docker"
     args: ["build", "-t", "gcr.io/aroma-gfunc/cucumber-tests", "."]
