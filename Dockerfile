@@ -2,6 +2,30 @@ FROM maven:3.8.6-jdk-11
 
 # Firefox
 
+RUN apt-get update && apt-get install -y \
+    xvfb \
+    xauth \
+    x11vnc \
+    libgtk-3-0 \
+    libasound2 \
+    libxtst6 \
+    libxss1 \
+    libgconf-2-4 \
+    libnss3 \
+    libatk-bridge2.0-0 \
+    libgtk-3-0 \
+    libx11-xcb1 \
+    libdbus-glib-1-2
+
+COPY start-xvfb.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/start-xvfb.sh
+
+#!/bin/bash
+Xvfb :99 -screen 0 1024x768x24 -ac +extension RANDR +extension RENDER -noreset &
+export DISPLAY=:99
+exec "$@"
+
+
 ARG FIREFOX_VERSION=105.0
 RUN apt-get update -qqy \
     && apt-get -qqy install libgtk-3-0 libx11-xcb1 libdbus-glib-1-2 libxt6 libasound2 \
@@ -59,5 +83,5 @@ COPY . .
 #     && chmod -R 755 /root/.m2
 
 # Run the tests with Firefox
-CMD ["mvn", "-X","test", "-Dbrowser=firefox"]
+CMD ["start-xvfb.sh","mvn", "-X","test", "-Dbrowser=firefox"]
 
