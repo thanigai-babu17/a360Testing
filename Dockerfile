@@ -9,6 +9,3 @@ COPY . .
 
 # Build the Maven project
 RUN mvn clean install
-
-# Set the entry point command to run Cucumber
-CMD ["mvn", "test"]
