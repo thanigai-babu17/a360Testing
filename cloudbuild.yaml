@@ -1,15 +1,8 @@
 steps:
-  # Build the Docker image
+  # Step 1: Build the Docker image with Maven and Firefox dependencies
   - name: "gcr.io/cloud-builders/docker"
-    args: ["build", "-t", "gcr.io/aroma-gfunc/cucumber-tests", "."]
-    args:
-      - "build"
-      - "-t"
-      - "gcr.io/aroma-gfunc/ar360-test"
-      - "."
+    args: ["build", "-t", "my-app-image", "."]
 
-images:
-  - "gcr.io/aroma-gfunc/ar360-test"
-
-options:
-  logging: CLOUD_LOGGING_ONLY
+  # Step 2: Run the tests inside the Docker container
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["run", "--rm", "my-app-image", "mvn", "clean", "install"]

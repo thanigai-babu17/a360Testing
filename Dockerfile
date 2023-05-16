@@ -28,4 +28,4 @@ WORKDIR /app
 COPY . .
 
 # Run the tests with Firefox
-CMD mvn clean test -Dbrowser=firefox
+CMD mvn test -Dbrowser=firefox
