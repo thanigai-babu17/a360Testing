@@ -59,5 +59,5 @@ COPY . .
 #     && chmod -R 755 /root/.m2
 
 # Run the tests with Firefox
-CMD ["mvn", "test", "-Dbrowser=chrome"]
+CMD ["mvn", "test", "-Dbrowser=firefox"]
 
