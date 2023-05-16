@@ -27,5 +27,6 @@ WORKDIR /app
 # Copy the source code into the container
 COPY . .
 
+COPY ./Drivers/geckodriver.exe /app/
 # Run the tests with Firefox
 CMD mvn test -Dbrowser=firefox
