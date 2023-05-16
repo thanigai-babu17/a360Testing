@@ -95,9 +95,9 @@ COPY start-xvfb.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/start-xvfb.sh
 
 #!/bin/bash
-Xvfb :99 -screen 0 1024x768x24 -ac +extension RANDR +extension RENDER -noreset &
-export DISPLAY=:99
-exec "$@"
+RUN Xvfb :99 -screen 0 1024x768x24 -ac +extension RANDR +extension RENDER -noreset &
+RUN export DISPLAY=:99
+RUN exec "$@"
 
 
 # Run the tests with Firefox
