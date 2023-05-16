@@ -27,16 +27,14 @@ RUN apt-get update \
     && mkdir -p /var/lib/apt/lists/partial \
     && apt-get clean \
     && apt-get autoclean
-# RUN chown -R seluser:seluser /usr/src/app
+RUN chown -R seluser:seluser /usr/src/app
 
 USER seluser
 
-# # Set the PATH to include GeckoDriver
-# ENV PATH="/usr/src/app/Drivers/geckodriver.exe"
-
-#Build the Maven project
-RUN mvn clean install
+# Set the PATH to include GeckoDriver
+ENV PATH="/usr/src/app/Drivers/geckodriver.exe"
 
 # Build and run your tests
+RUN mvn clean install
 RUN mvn clean test
 
