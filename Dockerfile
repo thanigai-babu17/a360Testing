@@ -34,6 +34,9 @@ USER seluser
 # # Set the PATH to include GeckoDriver
 # ENV PATH="/usr/src/app/Drivers/geckodriver.exe"
 
+#Build the Maven project
+RUN mvn clean install
+
 # Build and run your tests
 RUN mvn clean test
 
