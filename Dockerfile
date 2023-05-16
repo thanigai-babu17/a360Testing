@@ -17,8 +17,8 @@ FROM maven:3.8.6-jdk-11
 #     libx11-xcb1 \
 #     libdbus-glib-1-2
 
-COPY start-xvfb.sh /usr/local/bin/
-RUN chmod +x /usr/local/bin/start-xvfb.sh
+# COPY start-xvfb.sh /usr/local/bin/
+# RUN chmod +x /usr/local/bin/start-xvfb.sh
 
 #!/bin/bash
 Xvfb :99 -screen 0 1024x768x24 -ac +extension RANDR +extension RENDER -noreset &
