@@ -77,13 +77,13 @@ RUN wget -q -O /tmp/geckodriver.tar.gz https://github.com/mozilla/geckodriver/re
 #     && chmod 755 /opt/chromedriver-$CHROME_DRIVER_VERSION \
 #     && ln -s /opt/chromedriver-$CHROME_DRIVER_VERSION /usr/bin/chromedriver
 
-COPY start-xvfb.sh /usr/local/bin/
-RUN chmod +x /usr/local/bin/start-xvfb.sh
+# COPY start-xvfb.sh /usr/local/bin/
+# RUN chmod +x /usr/local/bin/start-xvfb.sh
 
 #!/bin/bash
-RUN Xvfb :99 -screen 0 1024x768x24 -ac +extension RANDR +extension RENDER -noreset &
-RUN export DISPLAY=:99
-RUN exec "$@"
+# RUN Xvfb :99 -screen 0 1024x768x24 -ac +extension RANDR +extension RENDER -noreset &
+# RUN export DISPLAY=:99
+# RUN exec "$@"
 
 # Set the working directory
 WORKDIR /app
@@ -101,5 +101,5 @@ COPY . .
 
 
 # Run the tests with Firefox
-CMD ["start-xvfb.sh","mvn", "-X","test", "-Dbrowser=firefox"]
+CMD ["mvn", "-X","test", "-Dbrowser=firefox","-DDisplay=99"]
 
