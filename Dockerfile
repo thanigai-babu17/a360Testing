@@ -20,10 +20,10 @@ FROM maven:3.8.6-jdk-11
 # COPY start-xvfb.sh /usr/local/bin/
 # RUN chmod +x /usr/local/bin/start-xvfb.sh
 
-#!/bin/bash
-Xvfb :99 -screen 0 1024x768x24 -ac +extension RANDR +extension RENDER -noreset &
-export DISPLAY=:99
-exec "$@"
+# #!/bin/bash
+# Xvfb :99 -screen 0 1024x768x24 -ac +extension RANDR +extension RENDER -noreset &
+# export DISPLAY=:99
+# exec "$@"
 
 
 ARG FIREFOX_VERSION=105.0
