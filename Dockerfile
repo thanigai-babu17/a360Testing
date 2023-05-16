@@ -21,24 +21,28 @@ FROM maven:3.8.6-jdk-11
 #     && mv /opt/geckodriver /opt/geckodriver-$GECKODRIVER_VERSION \
 #     && ln -s /opt/geckodriver-$GECKODRIVER_VERSION /usr/bin/geckodriver
 
-# Chrome
+# Google Chrome
 
-ARG CHROME_VERSION=94.0.4606.61
+ARG CHROME_VERSION=112.0.5615.49-1
 RUN apt-get update -qqy \
-    && apt-get -qqy install wget \
-    && wget -q -O /tmp/chrome.deb https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_$CHROME_VERSION-1_amd64.deb \
-    && dpkg -i /tmp/chrome.deb \
-    && apt-get -qqy --fix-broken install \
-    && rm /tmp/chrome.deb
+    && apt-get -qqy install gpg unzip \
+    && wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
+    && echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list \
+    && apt-get update -qqy \
+    && apt-get -qqy install google-chrome-stable=$CHROME_VERSION \
+    && rm /etc/apt/sources.list.d/google-chrome.list \
+    && rm -rf /var/lib/apt/lists/* /var/cache/apt/* \
+    && sed -i 's/"$HERE\/chrome"/"$HERE\/chrome" --no-sandbox/g' /opt/google/chrome/google-chrome
 
-# Chromedriver
+# ChromeDriver
 
-ARG CHROMEDRIVER_VERSION=94.0.4606.61
-RUN wget -q -O /tmp/chromedriver.zip https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip \
+ARG CHROME_DRIVER_VERSION=112.0.5615.49
+RUN wget -q -O /tmp/chromedriver.zip https://chromedriver.storage.googleapis.com/$CHROME_DRIVER_VERSION/chromedriver_linux64.zip \
     && unzip /tmp/chromedriver.zip -d /opt \
     && rm /tmp/chromedriver.zip \
-    && chmod +x /opt/chromedriver \
-    && ln -s /opt/chromedriver /usr/bin/chromedriver
+    && mv /opt/chromedriver /opt/chromedriver-$CHROME_DRIVER_VERSION \
+    && chmod 755 /opt/chromedriver-$CHROME_DRIVER_VERSION \
+    && ln -s /opt/chromedriver-$CHROME_DRIVER_VERSION /usr/bin/chromedriver
 
 # Set the working directory
 WORKDIR /app
