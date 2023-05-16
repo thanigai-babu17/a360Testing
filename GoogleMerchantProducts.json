@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "aroma360productlist",
+  "private_key_id": "af872862600517d6afdb91d0c44b7c53dcb565ca",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCqda7KHd4+cSKn\nX6FS9A9STtSkjFRBdqM1s9h7dw1UkVjW1eg0uMn/JVnSg/r4Zw3wTvLwmiOu7IrG\ntmswb3pjTDXruhvWp2UYjY0nUlWKF6wsRpbpKm0H3NDMGc3o4giLQyWvgNxy09Qc\nElIgi2LnYP8hrFiT7NA8Ka08bgOcc8g+kI5wqsXcVP+Ash4bXmH7TTPfkT4BFttk\n6sQDitPosico0/J7UIjOtKVV8NNKQm7iyftcAj+XP3nZ92wzEhuawmgmYn+x4m68\nN5zGVIXPFJS44IuSseA/V2RaWuR4EyrmoxhOoPb5NOqJ8djJUsetXWdz8YZheMH8\nJQQ/hXV5AgMBAAECggEAJZbV+JQlkjd4oNghxx0y07+2fKLFYbo7u3fxYSibs+5p\nXNbG4flt8enWqOmZynVPSZLfV9dlzwkygSdw87lhj8wah+T+hpNbY9KzMdyiKFWY\nDhty4/ALIxS6pod6NMTDhZJFGTKdamTz/Uy895hFMyjcmhxbXCN4uAuovA62lSVG\nz+e/oyYX9CiO9Ecs4WxtIGRtu/6Mmb/tEHW2y1QBAl1uaaWPCFSvUKMlje+jo5Bt\nax5I4zBkT0orxaazluNoSFjXuqthIpW/wsuqqA3ETh7bh9N1yD7q5xmNFCTPDVdy\nX3Hs+jrL7HtjoNZR4eP5FNkn2WXZhEsbQ4bi9KtIQQKBgQDeSWrtAWPDx2U1griQ\nwnNSk31WTNgE5pun+iuYXL1n0SDkW1st38zQowH5b7fSb2XSeXrdo8+gIy90b/Mo\nxx/AwjVsY8EjsjIpxiBW7Nb/iKJv4iSjsx6ax8JMbFvmi9h/cu2wgi6Wpm1CkJUN\np3WZO1QhMSlp9wv1v0gk3EjuzQKBgQDEUAJILTWqHEvqpDv+a/SCdb4vVSUyJ4Jg\n1A8t5oXIF0/G5KRU+hx9VmFKdEQrqmVF+dvnxcd/pR8PH9u2UhowsP5ZuRSk8eQ8\nTquMEnNQo8btqnekx1SUXTdZTI3r0Qwfdi7qK2WVjGW7dIuUpBAlAdUu+aEEpCk1\nsc6EECeJXQKBgQCYCwnLQScXM90DY/2QbqDo+59Al2EuwPn5RMHq/oxDZaUk7WQJ\nlcoHb2gbUJIgqzevZo5m6fRLaaW89BITc1hBxdU65WSnYOy07CMUsf1BXhkVhE5h\ndlRZtIcvNPMLV95nFpqEIBdzzjRv0mtRophqjk02QuU76NJSblsPc2mjhQKBgGPC\npOY400SXDJ04yKQKCD8jxnoXMsfB/CdonC4fL2z3K7tPBZOJZmDrPJWxb9MgzEY7\nKt0lTLQ5HQd6kRSdtGF6EEdYHn2TzwA2mkacOa2JDNZKAnLiOMEMfcwLczObECYM\n0Np/IyhUKH6SQzxOA0ZLICK3CHRrV+XJbcD+1JihAoGBANlOwlj8lnkJJFbGRzbv\nnfFPTBjF4r1Vbeup7VFelNiTxyFae4n141baAqaFUozL0UTyp0gmrqvEeIYxGJRP\nsomaaUwvEkspZv1GktZ8OzoyXPjBJwK7O/+Cr4S08K4JF4SMUDaVmjl9p4oMXIgL\nwpzMUMd/iXOofU7b8HKq7IGn\n-----END PRIVATE KEY-----\n",
+  "client_email": "aromaproduct-list@aroma360productlist.iam.gserviceaccount.com",
+  "client_id": "107394495313766253571",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/aromaproduct-list%40aroma360productlist.iam.gserviceaccount.com"
+}

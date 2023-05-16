@@ -1,0 +1,904 @@
+{
+  "kind" : "content#productsListResponse",
+  "nextPageToken" : "5e08e1c56e89cc8",
+  "resources" : [ {
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Chandelier Oil by Aroma360"
+    } ],
+    "description" : "Inspired by: Baccarat® Rouge 540 A delicate and sophisticated blend reminiscent of an amber floral and woody breeze. Top Notes of bergamot and crisp, sweet berry are complimented by a hint of jasmine and radiant of saffron. Mineral facets of ambergris and woody tones of a freshly cut oakmoss make this a scent fit for royalty. Top Note - Bergamot, Sandalwood, OudMiddle Note - Jasmine, Saffron, Sweet Berry. Base Note - Oakmoss, Amber, Vanilla | Aroma360 Chandelier Scented Oil size 120mL",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances > Fragrance Oil",
+    "id" : "online:en:CA:38114011742402",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/Chandelier.jpg?v=1663244804",
+    "itemGroupId" : "6204163489986",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/chandelier-scent?variant=38114011742402",
+    "mpn" : "ARFG120FOCHNDLR",
+    "offerId" : "38114011742402",
+    "price" : {
+      "currency" : "USD",
+      "value" : "74.99"
+    },
+    "productTypes" : [ "Scent Diffusers > Diffusers & Oils > Oils > Collections > Luxe Collection Oils" ],
+    "salePrice" : {
+      "currency" : "USD",
+      "value" : "67.49"
+    },
+    "shippingWeight" : {
+      "unit" : "oz",
+      "value" : 5.0
+    },
+    "sizes" : [ "120mL" ],
+    "source" : "feed",
+    "targetCountry" : "CA",
+    "title" : "Aroma360 Chandelier Scented Oil size 120mL",
+    "feedLabel" : "CA"
+  }, {
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Nirvana Oil by Aroma360"
+    } ],
+    "description" : "Inspired by: Shangri-La Hotel® A lemon top note defines the first odor of the fragrance. The body of the fragrance is a jasmine accord, with an underlying ginger note and a sandalwood touch. The fragrance dries down to a vanilla and tonka bean sweetness, with an amber musk dry down. Top Note: LemonMid Note: Jasmine, Ginger, Sandalwood. Base Note: Vanilla, Tonka Bean, Amber, Musk | Aroma360 Nirvana Scented Oil size 50mL",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances > Fragrance Oil",
+    "id" : "online:en:CA:41966786937026",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/Nirvana.jpg?v=1663249286",
+    "itemGroupId" : "6204159393986",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/nirvana-scent?variant=41966786937026",
+    "mpn" : "ARFG50FONRVNA",
+    "offerId" : "41966786937026",
+    "price" : {
+      "currency" : "USD",
+      "value" : "54.95"
+    },
+    "productTypes" : [ "Scent Diffusers > Diffusers & Oils > Oils > Collections > Floral Collection Oils" ],
+    "salePrice" : {
+      "currency" : "USD",
+      "value" : "49.46"
+    },
+    "shippingWeight" : {
+      "unit" : "oz",
+      "value" : 1.6
+    },
+    "sizes" : [ "50mL" ],
+    "source" : "feed",
+    "targetCountry" : "CA",
+    "title" : "Aroma360 Nirvana Scented Oil size 50mL",
+    "feedLabel" : "CA"
+  }, {
+    "additionalImageLinks" : [ "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/Blk500MLReedDiffuser_3dcc2e48-8598-4932-b825-53f92952206d.jpg?v=1663942429https://cdn.shopify.com/s/files/1/0517/2402/6050/products/500and100ReedDiffusers-_1.png?v=1663942459https://cdn.shopify.com/s/files/1/0517/2402/6050/products/Wht500wBox_1_97ee0378-b963-4e36-80a9-e33aa3c46980.jpg?v=1663942459https://cdn.shopify.com/s/files/1/0517/2402/6050/products/Blk500MLwBox_16a70a98-51b7-40d3-8f63-ab2b4d1bb49e.jpg?v=1663942459" ],
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "color" : "Black",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Déjà Vu 500mL Reed Diffuser by Aroma360"
+    } ],
+    "description" : "Beloved notes that feel so intimately familiar. Invigorating bergamot blends with romantic blossoms of rose and honeyed orchid to create an alluring experience for your senses. Top Note - Bergamot, Orange Blossom, RoseMiddle Note - Orchid, White Mimosa, Narcissus. Base Note - Oud Wood, Teak, Sandalwood Size: 500mLLongevity: 3-6 months | Aroma360 Déjà Vu 500mL Reed Scent Diffuser in Black",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances",
+    "id" : "online:en:US:42468814487746",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/Wht500MLReedDiffuser_12105a02-e340-4e4e-90c9-343aac96e205.jpg?v=1663942429",
+    "itemGroupId" : "7525998690498",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/dejavu-luxe-reed-diffuser?variant=42468814487746",
+    "mpn" : "ARFG500RDDFBLCKDJVU",
+    "offerId" : "42468814487746",
+    "price" : {
+      "currency" : "USD",
+      "value" : "169.00"
+    },
+    "productTypes" : [ "Scent Diffusers > Diffusers & Oils > Diffusers > Reed Diffusers > Déjà Vu Diffusers" ],
+    "shippingWeight" : {
+      "unit" : "lb",
+      "value" : 0.0
+    },
+    "sizes" : [ "500mL" ],
+    "source" : "feed",
+    "targetCountry" : "US",
+    "title" : "Aroma360 Déjà Vu 500mL Reed Scent Diffuser in Black",
+    "feedLabel" : "US"
+  }, {
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Marquee Moon Oil by Aroma360"
+    } ],
+    "description" : "Inspired by: Confidante Hotel® The perfect balance of masculinity, freshness and elegance. This fragrance begins with a spicy leather and nutmeg blend along with orange and lemon citrus notes. The main theme blends a spicy accord of cardamom and ginger with a floral jasmine and sandalwood character. The fragrance ends with an amber musk base. Top Note - Nutmeg, Orange, LemonMiddle Note - Ginger, Cardamom, Sandalwood, Jasmine. Base Note - Amber, Musk | Aroma360 Marquee Moon Scented Oil size 200mL",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances > Fragrance Oil",
+    "id" : "online:en:US:38113987231938",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/MarqueeMoon.jpg?v=1663251348",
+    "itemGroupId" : "6204159328450",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/marquee-moon-scent?variant=38113987231938",
+    "mpn" : "ARFG200FOMRQMOON",
+    "offerId" : "38113987231938",
+    "price" : {
+      "currency" : "USD",
+      "value" : "99.95"
+    },
+    "productTypes" : [ "Scent Diffusers > Diffusers & Oils > Oils" ],
+    "salePrice" : {
+      "currency" : "USD",
+      "value" : "89.96"
+    },
+    "shippingWeight" : {
+      "unit" : "oz",
+      "value" : 8.0
+    },
+    "sizes" : [ "200mL" ],
+    "source" : "feed",
+    "targetCountry" : "US",
+    "title" : "Aroma360 Marquee Moon Scented Oil size 200mL",
+    "feedLabel" : "US"
+  }, {
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Midnight in Paris Oil by Aroma360"
+    } ],
+    "description" : "Inspired by: Hotel Costes® Sultry sensations arouse your senses with an aroma that transports you to a romantic scene in a boutique Parisian hotel. A bold, woody accord, tantalizing nutmeg, and passion-filled rose become one while sandalwood and patchouli compliment gentle layers of vanilla and amber. Top Note - Nutmeg, Lemon, RoseMiddle Note - Clove, Sandalwood, Patchouli . Base Note - Vanilla, Amber, Musk | Aroma360 Midnight in Paris Scented Oil size 120mL",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances > Fragrance Oil",
+    "id" : "online:en:UK:38114008367298",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/MidnightInParis.jpg?v=1663248245",
+    "itemGroupId" : "6204162310338",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/midnight-in-paris-costes-scent?variant=38114008367298",
+    "mpn" : "ARFG120FOMDNTPRS",
+    "offerId" : "38114008367298",
+    "price" : {
+      "currency" : "USD",
+      "value" : "74.99"
+    },
+    "productTypes" : [ "Scent Diffusers > Diffusers & Oils > Oils > Collections > Woodsy Collection Oils" ],
+    "salePrice" : {
+      "currency" : "USD",
+      "value" : "67.49"
+    },
+    "shippingWeight" : {
+      "unit" : "oz",
+      "value" : 5.0
+    },
+    "sizes" : [ "120mL" ],
+    "source" : "feed",
+    "title" : "Aroma360 Midnight in Paris Scented Oil size 120mL",
+    "feedLabel" : "UK"
+  }, {
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Allure Oil by Aroma360"
+    } ],
+    "description" : "Designed for: Melià Hotels® A soft aromatic scent that is composed of jasmine and bergamot, balanced by crisp amber, soft musk, and guaiac wood. Exclusively made for our scenting diffusers perfect for any space. Top Note: Bergamot, NutmegMiddle Note: Jasmine, Rose, Sandalwood. Base Note: Amber, Musk, Guaiac wood | Aroma360 Allure Scented Oil size 200mL",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances > Fragrance Oil",
+    "id" : "online:en:CA:38113999552706",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/Allure.jpg?v=1663245879",
+    "itemGroupId" : "6204160213186",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/allure-scent?variant=38113999552706",
+    "mpn" : "ARFG200FOALLURE",
+    "offerId" : "38113999552706",
+    "price" : {
+      "currency" : "USD",
+      "value" : "99.95"
+    },
+    "productTypes" : [ "Scent Diffusers > Diffusers & Oils > Oils > Collections > Floral Collection Oils" ],
+    "salePrice" : {
+      "currency" : "USD",
+      "value" : "89.96"
+    },
+    "shippingWeight" : {
+      "unit" : "oz",
+      "value" : 8.0
+    },
+    "sizes" : [ "200mL" ],
+    "source" : "feed",
+    "targetCountry" : "CA",
+    "title" : "Aroma360 Allure Scented Oil size 200mL",
+    "feedLabel" : "CA"
+  }, {
+    "additionalImageLinks" : [ "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/Bags.jpg?v=1674668690", "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/LgBlkGiftBag.jpg?v=1674668690", "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/LgWhiteGiftBag.jpg?v=1674668690", "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/BlkSmallGiftBag.jpg?v=1674668690" ],
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "color" : "White",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Luxury Canvas Tote by Aroma360"
+    } ],
+    "description" : "Our Luxury Canvas Tote makes for a perfect beach bag, a reliable on-the-go tote for groceries and durable for all campus activities. Crafted from soft and sturdy 100% cotton canvas, this handbag features neatly stitched seams that enhance its clean look and ensure durability. | Aroma360 Luxury Canvas Tote in White, Small",
+    "googleProductCategory" : "Luggage & Bags > Shopping Totes",
+    "id" : "online:en:UK:42871172858050",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/SmallWhiteBag.jpg?v=1674672223",
+    "itemGroupId" : "7513803849922",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/luxury-canvas-tote?variant=42871172858050",
+    "mpn" : "ARFGA360WHITESTBAG",
+    "offerId" : "42871172858050",
+    "price" : {
+      "currency" : "USD",
+      "value" : "6.95"
+    },
+    "productTypes" : [ "Accessories > Totes" ],
+    "shippingWeight" : {
+      "unit" : "lb",
+      "value" : 0.0
+    },
+    "sizes" : [ "Small" ],
+    "source" : "feed",
+    "title" : "Aroma360 Luxury Canvas Tote in White, Small",
+    "feedLabel" : "UK"
+  }, {
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Electric Youth Oil by Aroma360"
+    } ],
+    "description" : "Electric Youth, where blooming notes of neroli and jasmine are beautifully enhanced by a unique blend of white musk, cedarwood, and golden cypress. This fragrance is perfect for spring, with a top note of wild bergamot and verbena and a middle note of neroli, jasmine, and basil. The . . Base Notes of white musk, cedar, and cypress will leave you feeling fresh and energized. Top Note: Wild Bergamot, VerbenaMid Note: Neroli, Jasmine, Basil. Base Note: White Musk, Cedar, Cypress | Aroma360 Electric Youth Scented Oil size 200mL",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances > Fragrance Oil",
+    "id" : "online:en:CA:42917405655234",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/ElectricYouth.jpg?v=1676397950",
+    "itemGroupId" : "7615341560002",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/electric-youth?variant=42917405655234",
+    "mpn" : "ARFG200FOELCTRCYTH",
+    "offerId" : "42917405655234",
+    "price" : {
+      "currency" : "USD",
+      "value" : "99.95"
+    },
+    "productTypes" : [ "Scent Diffusers > Diffusers & Oils > Oils > Collections > Citrus Collection Oils" ],
+    "shippingWeight" : {
+      "unit" : "oz",
+      "value" : 8.0
+    },
+    "sizes" : [ "200mL" ],
+    "source" : "feed",
+    "targetCountry" : "CA",
+    "title" : "Aroma360 Electric Youth Scented Oil size 200mL",
+    "feedLabel" : "CA"
+  }, {
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Electric Youth Oil by Aroma360"
+    } ],
+    "description" : "Electric Youth, where blooming notes of neroli and jasmine are beautifully enhanced by a unique blend of white musk, cedarwood, and golden cypress. This fragrance is perfect for spring, with a top note of wild bergamot and verbena and a middle note of neroli, jasmine, and basil. The . . Base Notes of white musk, cedar, and cypress will leave you feeling fresh and energized. Top Note: Wild Bergamot, VerbenaMid Note: Neroli, Jasmine, Basil. Base Note: White Musk, Cedar, Cypress | Aroma360 Electric Youth Scented Oil size 120mL",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances > Fragrance Oil",
+    "id" : "online:en:CA:42917405622466",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/ElectricYouth.jpg?v=1676397950",
+    "itemGroupId" : "7615341560002",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/electric-youth?variant=42917405622466",
+    "mpn" : "ARFG120FOELCTRCYTH",
+    "offerId" : "42917405622466",
+    "price" : {
+      "currency" : "USD",
+      "value" : "74.99"
+    },
+    "productTypes" : [ "Scent Diffusers > Diffusers & Oils > Oils > Collections > Citrus Collection Oils" ],
+    "shippingWeight" : {
+      "unit" : "oz",
+      "value" : 5.0
+    },
+    "sizes" : [ "120mL" ],
+    "source" : "feed",
+    "targetCountry" : "CA",
+    "title" : "Aroma360 Electric Youth Scented Oil size 120mL",
+    "feedLabel" : "CA"
+  }, {
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "My Way Oil by Aroma360"
+    } ],
+    "description" : "Inspired by: 1 Hotel® Lush sandalwood, warm cedar, and delicate florals are exquisitely blended with smooth Tuscan leather and sensual amber to create our most sophisticated and timeless fragrance. Top Note - Leather, Cardamon, Lemon Mid Note - Sandalwood, Cedarwood, Cinnamon . Base Note - Vetiver, Amber, Musk, Iris | Aroma360 My Way Scented Oil size 120mL",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances > Fragrance Oil",
+    "id" : "online:en:US:38114007646402",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/MyWay.jpg?v=1663243940",
+    "itemGroupId" : "6204161818818",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/my-way-scent?variant=38114007646402",
+    "mpn" : "ARFG120FOMYWAY",
+    "offerId" : "38114007646402",
+    "price" : {
+      "currency" : "USD",
+      "value" : "74.99"
+    },
+    "productTypes" : [ "Scent Diffusers > Diffusers & Oils > Oils > Collections > Woodsy Collection Oils" ],
+    "salePrice" : {
+      "currency" : "USD",
+      "value" : "67.49"
+    },
+    "shippingWeight" : {
+      "unit" : "oz",
+      "value" : 5.0
+    },
+    "sizes" : [ "120mL" ],
+    "source" : "feed",
+    "targetCountry" : "US",
+    "title" : "Aroma360 My Way Scented Oil size 120mL",
+    "feedLabel" : "US"
+  }, {
+    "additionalImageLinks" : [ "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/PC3CandleSet.jpg?v=1667919200" ],
+    "availability" : "out of stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Paris Collection Candle Trio by Aroma360"
+    } ],
+    "description" : "Discover your favorite while indulging in a choice of luxury hotel-inspired scents. Each set includes one of the fragrances below in an 11oz candle. My Way– Inspired by: 1 Hotel®, Miami BeachLeather | Sandalwood | Iris Dream On– Inspired by: Westin Hotels® WorldwideWhite Tea | Aloe Vera | Cedarwood 24K Magic– Inspired by: The W Hotel®, New York Lemon | Bergamot | Lemongrass Escapade – Inspired by: The Ritz Carlton®Marine | Bergamot | Jasmine Chandelier– Inspired by: Baccarat® Rouge 540Bergamot | Sandalwood | Oud Candle Size: 11oz | Aroma360 Paris Collection Candle Trio 11oz",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances > Candles",
+    "id" : "online:en:UK:42900249739458",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/CandleTrio72.jpg?v=1667919200",
+    "itemGroupId" : "7484301869250",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/3-set-candle-vessels-and-box?variant=42900249739458",
+    "mpn" : "ARPC11WHT24KMAGIC",
+    "offerId" : "42900249739458",
+    "price" : {
+      "currency" : "USD",
+      "value" : "109.95"
+    },
+    "productTypes" : [ "Candles > Collections > Candle Trios" ],
+    "shippingWeight" : {
+      "unit" : "lb",
+      "value" : 3.0
+    },
+    "sizes" : [ "11oz" ],
+    "source" : "feed",
+    "title" : "Aroma360 Paris Collection Candle Trio 11oz",
+    "feedLabel" : "UK"
+  }, {
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Déjà Vu Oil by Aroma360"
+    } ],
+    "description" : "Beloved notes that feel so intimately familiar. Invigorating bergamot blends with romantic blossoms of rose and honeyed orchid to create an alluring experience for your senses. Top Note - Bergamot, Orange Blossom, RoseMiddle Note - Orchid, White Mimosa, Narcissus. Base Note - Oud Wood, Teak, Sandalwood | Aroma360 Déjà Vu Scented Oil size 120mL",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances > Fragrance Oil",
+    "id" : "online:en:US:41595301167298",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/DejaVu.jpg?v=1663251594",
+    "itemGroupId" : "7238760562882",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/deja-vu-scent?variant=41595301167298",
+    "mpn" : "ARFG120FODEJV",
+    "offerId" : "41595301167298",
+    "price" : {
+      "currency" : "USD",
+      "value" : "74.99"
+    },
+    "productTypes" : [ "Scent Diffusers > Diffusers & Oils > Oils > Collections > Citrus Collection Oils" ],
+    "salePrice" : {
+      "currency" : "USD",
+      "value" : "67.49"
+    },
+    "shippingWeight" : {
+      "unit" : "oz",
+      "value" : 5.0
+    },
+    "sizes" : [ "120mL" ],
+    "source" : "feed",
+    "targetCountry" : "US",
+    "title" : "Aroma360 Déjà Vu Scented Oil size 120mL",
+    "feedLabel" : "US"
+  }, {
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Mystify Oil by Aroma360"
+    } ],
+    "description" : "Inspired by: Wynn Hotel® This fragrance is a fruity floral fragrance with a green character. Mystify begins with a citrus lemon note which is combined with a green melon accord. The body of the fragrance is a floral bouquet of lily and jasmine. This leads to a delicate raspberry nuance. The fragrance dries down to a mossy musk base. Top Note - Lemon, Green MelonMid Note - Lily, Jasmine. Base Note - Raspberry, Oakmoss, Musk | Aroma360 Mystify Scented Oil size 50mL",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances > Fragrance Oil",
+    "id" : "online:en:US:41589312946370",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/Mystify.jpg?v=1663247478",
+    "itemGroupId" : "6204161753282",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/mystify-scent?variant=41589312946370",
+    "mpn" : "ARFG50FOMYSTFY",
+    "offerId" : "41589312946370",
+    "price" : {
+      "currency" : "USD",
+      "value" : "54.95"
+    },
+    "productTypes" : [ "Scent Diffusers > Diffusers & Oils > Oils > Collections > Floral Collection Oils" ],
+    "salePrice" : {
+      "currency" : "USD",
+      "value" : "49.46"
+    },
+    "shippingWeight" : {
+      "unit" : "oz",
+      "value" : 1.6
+    },
+    "sizes" : [ "50mL" ],
+    "source" : "feed",
+    "targetCountry" : "US",
+    "title" : "Aroma360 Mystify Scented Oil size 50mL",
+    "feedLabel" : "US"
+  }, {
+    "additionalImageLinks" : [ "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/reed-diffuser-deja-vu-reed-diffuser-2.jpg?v=1649359291https://cdn.shopify.com/s/files/1/0517/2402/6050/products/reed-diffuser-deja-vu-reed-diffuser-3.jpg?v=1649359292" ],
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "color" : "Black",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Déjà Vu Reed Diffuser by Aroma360"
+    } ],
+    "description" : "Beloved notes that feel so intimately familiar. Invigorating bergamot blends with romantic blossoms of rose and honeyed orchid to create an alluring experience for your senses. Top Note - Bergamot, Orange Blossom, RoseMiddle Note - Orchid, White Mimosa, Narcissus. Base Note - Oud Wood, Teak, Sandalwood Size: 100mLLongevity: 2-3 months | Aroma360 Déjà Vu Reed Scent Diffuser in Black",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances",
+    "id" : "online:en:CA:41321083535554",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/reed-diffuser-deja-vu-reed-diffuser-1.jpg?v=1649359291",
+    "itemGroupId" : "7142743507138",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/deja-vu-reed-diffuser?variant=41321083535554",
+    "mpn" : "ARFG100RDCERBLKDEJV",
+    "offerId" : "41321083535554",
+    "price" : {
+      "currency" : "USD",
+      "value" : "79.95"
+    },
+    "productTypes" : [ "Scent Diffusers > Diffusers & Oils > Diffusers > Reed Diffusers > Déjà Vu Diffusers" ],
+    "salePrice" : {
+      "currency" : "USD",
+      "value" : "59.96"
+    },
+    "shippingWeight" : {
+      "unit" : "lb",
+      "value" : 2.0
+    },
+    "sizes" : [ "100mL" ],
+    "source" : "feed",
+    "targetCountry" : "CA",
+    "title" : "Aroma360 Déjà Vu Reed Scent Diffuser in Black",
+    "feedLabel" : "CA"
+  }, {
+    "additionalImageLinks" : [ "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/SingleMuseum2.jpg?v=1663252889" ],
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Museum360 Diffuser by Aroma360"
+    } ],
+    "description" : "Scent with ease and efficiency with the Museum360s HVAC system connection, resourcefully covering multiple areas at a pre-selected scent concentration level without the use of residue-creating, unnatural substances, and sprays. Manage when scenting occurs through an easy-to-use internal digital time. Supplement large spaces, such as entire homes, hotel floors, and mall wings, with the Museum360 HVAC Scent Diffuser. Key Features Scents up to 3,000 square feet. Built-in fan for consistent coverage. No residue. Safe for pets, children, and artwork. A programmable weekly timer that allows up to five unique operating periods. Dimensions: 10 ¼ x 6 ½ x 7 ½ (inches) Adjust the Scent Intensity with Power Mode | Aroma360 Museum360 Scent Diffuser",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrance Accessories > Candle & Oil Warmers",
+    "id" : "online:en:UK:41977602769090",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/SingleMuseum_1.jpg?v=1663252889",
+    "itemGroupId" : "7387984429250",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/single-museum360?variant=41977602769090",
+    "mpn" : "ARFGMUSMWIFI",
+    "offerId" : "41977602769090",
+    "price" : {
+      "currency" : "USD",
+      "value" : "1399.95"
+    },
+    "productTypes" : [ "Scent Diffusers > Diffusers & Oils > Diffusers > Museum360 Diffusers" ],
+    "salePrice" : {
+      "currency" : "USD",
+      "value" : "1049.96"
+    },
+    "shippingWeight" : {
+      "unit" : "lb",
+      "value" : 20.0
+    },
+    "source" : "feed",
+    "title" : "Aroma360 Museum360 Scent Diffuser",
+    "feedLabel" : "UK"
+  }, {
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Mother Ocean Oil by Aroma360"
+    } ],
+    "description" : "Designed for: Margaritaville® Leave your worries behind and head out to sea. Allow the aromas of crisp bergamot, fresh ivy and deep ocean wrap you up and entice you with notes of peony, magnolia and sweet honeysuckle. Follow that sweet hint of grape and set yourself free into the vast ocean of precious oud, warm amber and creamy sandalwood. Top Note - Bergamot, Ivy, Ocean Middle Note - Peony, Magnolia, Honeysuckle. Base Note - Oud, Amber, Sandalwood | Aroma360 Mother Ocean Scented Oil size 120mL",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances > Fragrance Oil",
+    "id" : "online:en:US:38114007843010",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/MotherOcean.jpg?v=1654199923",
+    "itemGroupId" : "6204161949890",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/only-the-ocean?variant=38114007843010",
+    "mpn" : "ARFG120FOMTHROCN",
+    "offerId" : "38114007843010",
+    "price" : {
+      "currency" : "USD",
+      "value" : "74.99"
+    },
+    "productTypes" : [ "Scent Diffusers > Diffusers & Oils > Oils > Collections > Fresh Collection Oils" ],
+    "salePrice" : {
+      "currency" : "USD",
+      "value" : "67.49"
+    },
+    "shippingWeight" : {
+      "unit" : "oz",
+      "value" : 5.0
+    },
+    "sizes" : [ "120mL" ],
+    "source" : "feed",
+    "targetCountry" : "US",
+    "title" : "Aroma360 Mother Ocean Scented Oil size 120mL",
+    "feedLabel" : "US"
+  }, {
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Escapade Oil by Aroma360"
+    } ],
+    "description" : "Inspired by: Ritz Carlton® Take a dip in the vast waters of the world with a fragrance that takes you to depths of the ocean and back. Accompanying hints of fragrant jasmine and enticing black pepper make for a restorative aroma that refreshes and hydrates in a single scent. Top Note - Lemon, Bergamot, Ocean Middle Note - Ocean, Jasmine . Base Note - Amber, Musk | Aroma360 Escapade Scented Oil size 200mL",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances > Fragrance Oil",
+    "id" : "online:en:US:38114010824898",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/Escapade.jpg?v=1663244714",
+    "itemGroupId" : "6204163096770",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/escapade-scent?variant=38114010824898",
+    "mpn" : "ARFG200FOESCPDE",
+    "offerId" : "38114010824898",
+    "price" : {
+      "currency" : "USD",
+      "value" : "99.95"
+    },
+    "productTypes" : [ "Scent Diffusers > Diffusers & Oils > Oils > Collections > Fresh Collection Oils" ],
+    "salePrice" : {
+      "currency" : "USD",
+      "value" : "89.96"
+    },
+    "shippingWeight" : {
+      "unit" : "oz",
+      "value" : 8.0
+    },
+    "sizes" : [ "200mL" ],
+    "source" : "feed",
+    "targetCountry" : "US",
+    "title" : "Aroma360 Escapade Scented Oil size 200mL",
+    "feedLabel" : "US"
+  }, {
+    "additionalImageLinks" : [ "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/6-WickWhite.jpg?v=1667424573https://cdn.shopify.com/s/files/1/0517/2402/6050/products/6-WickSet2White.jpg?v=1667421631https://cdn.shopify.com/s/files/1/0517/2402/6050/products/6-WickSet2Blk.jpg?v=1667421631https://cdn.shopify.com/s/files/1/0517/2402/6050/products/6-WickSetWhite.jpg?v=1667421631https://cdn.shopify.com/s/files/1/0517/2402/6050/products/6-WickSet.jpg?v=1667421625" ],
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "color" : "White",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "My Way 6-Wick Candle by Aroma360"
+    } ],
+    "description" : "﻿Inspired by: 1 Hotel®, Miami Beach Infuse your space with the longer-lasting version of our bestselling My Way scent, now in a 6-wick candle 3-piece set. Immerse in the sophisticated and sultry scent blends of spicy and sweet cardamom, warm sandalwood, sensual musk, floral iris, and rugged leather. Top Note: Leather, Cardamom, LemonMid Note: Sandalwood, Cedarwood, Cinnamon. Base Note: Vetiver, Amber, Musk, Iris Candle Size: 50ozBurn Time: ﻿295 hours Candle Set Includes: 1 x 6-wick Candle 1 x Wick Trimmer 1 x Matchbox | Aroma360 My Way 6-Wick Candle 50oz in White",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances > Candles",
+    "id" : "online:en:US:42667471732930",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/6-WickBlk.jpg?v=1667424573",
+    "itemGroupId" : "7568442491074",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/my-way-6-wick-candle?variant=42667471732930",
+    "mpn" : "ARFG50WHITMYWAY",
+    "offerId" : "42667471732930",
+    "price" : {
+      "currency" : "USD",
+      "value" : "229.95"
+    },
+    "productTypes" : [ "Candles > 6-Wick Candles > My Way 6-Wick Candles" ],
+    "shippingWeight" : {
+      "unit" : "lb",
+      "value" : 2.0
+    },
+    "sizes" : [ "50oz" ],
+    "source" : "feed",
+    "targetCountry" : "US",
+    "title" : "Aroma360 My Way 6-Wick Candle 50oz in White",
+    "feedLabel" : "US"
+  }, {
+    "additionalImageLinks" : [ "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/PC2CandleSet2_1.jpg?v=1667919159" ],
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Paris Collection Candle Duo by Aroma360"
+    } ],
+    "description" : "Send to a loved one or splurge on yourself! Packaged to perfection in a ready-to-gift box, transform any room into a 5-star hotel with this sleek candle duo. My Way– Inspired by: 1 Hotel®, Miami BeachLeather | Sandalwood | Iris Dream On– Inspired by: Westin Hotels® WorldwideWhite Tea | Aloe Vera | Cedarwood 24K Magic– Inspired by: The W Hotel®, New York Lemon | Bergamot | Lemongrass Escapade – Inspired by: The Ritz Carlton®Marine | Bergamot | Jasmine Chandelier– Inspired by: Baccarat® Rouge 540Bergamot | Sandalwood | Oud Candle Size: 11ozBurn Time: ﻿80 hours | Aroma360 Paris Collection Candle Duo 11oz",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances > Candles",
+    "id" : "online:en:US:42422043377858",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/CandleDuo72.jpg?v=1667919159",
+    "itemGroupId" : "7484247572674",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/2-set-candle-vessel-and-box?variant=42422043377858",
+    "mpn" : "ARPC11WHTMYWAY2",
+    "offerId" : "42422043377858",
+    "price" : {
+      "currency" : "USD",
+      "value" : "79.95"
+    },
+    "productTypes" : [ "Candles > Collections > Candle Duos" ],
+    "shippingWeight" : {
+      "unit" : "lb",
+      "value" : 2.0
+    },
+    "sizes" : [ "11oz" ],
+    "source" : "feed",
+    "targetCountry" : "US",
+    "title" : "Aroma360 Paris Collection Candle Duo 11oz",
+    "feedLabel" : "US"
+  }, {
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Never Too Much Oil by Aroma360"
+    } ],
+    "description" : "Transport yourself to a picturesque garden in Japan with the elegant and graceful fragrance of blooming Japanese Cherry Blossoms, blended with the zesty notes of bergamot and the smooth finish of cashmere, evoking the essence of Spring in a beautiful citrus floral scent. Top Note: Bergamot, Mandarin OrangeMid Note: Cherry Blossom, Rose, Mimosa. Base Note: Cashmere, Musk, Patchouli | Aroma360 Never Too Much Scented Oil size 200mL",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances > Fragrance Oil",
+    "id" : "online:en:CA:42917506220226",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/NeverTooMuch.jpg?v=1676403684",
+    "itemGroupId" : "7615361155266",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/never-too-much?variant=42917506220226",
+    "mpn" : "ARFG200FONVRTMCH",
+    "offerId" : "42917506220226",
+    "price" : {
+      "currency" : "USD",
+      "value" : "89.96"
+    },
+    "productTypes" : [ "Scent Diffusers > Diffusers & Oils > Oils > Collections > Spring Collection Oils" ],
+    "shippingWeight" : {
+      "unit" : "oz",
+      "value" : 8.0
+    },
+    "sizes" : [ "200mL" ],
+    "source" : "feed",
+    "targetCountry" : "CA",
+    "title" : "Aroma360 Never Too Much Scented Oil size 200mL",
+    "feedLabel" : "CA"
+  }, {
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Little White Lies Oil by Aroma360"
+    } ],
+    "description" : "Designed for: Hyatt Ziva® Take a stroll through the clouds with sweet white tea while savory thyme and spirited citrus swirl together to create an aromatic yet tangy experience. Soft white lychee peers through while blooming geranium and iris dance in the air for a distinctly delightful journey. Top Note - White Tea, Citron, FreesiaMiddle Note - Ylang Ylang, Bergamot, Cashmere. Base Note - Sandalwood, Amber, Cedarwood | Aroma360 Little White Lies Scented Oil size 500mL",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances > Fragrance Oil",
+    "id" : "online:en:CA:38114009219266",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/LittleWhiteLies.jpg?v=1663245929",
+    "itemGroupId" : "6204162441410",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/white-tea-and-thyme-scent?variant=38114009219266",
+    "mpn" : "ARFG500FOLTLWHTLIE",
+    "offerId" : "38114009219266",
+    "price" : {
+      "currency" : "USD",
+      "value" : "139.95"
+    },
+    "productTypes" : [ "Scent Diffusers > Diffusers & Oils > Oils > Collections > Spa Collection Oils" ],
+    "salePrice" : {
+      "currency" : "USD",
+      "value" : "125.96"
+    },
+    "shippingWeight" : {
+      "unit" : "lb",
+      "value" : 1.2
+    },
+    "sizes" : [ "500mL" ],
+    "source" : "feed",
+    "targetCountry" : "CA",
+    "title" : "Aroma360 Little White Lies Scented Oil size 500mL",
+    "feedLabel" : "CA"
+  }, {
+    "additionalImageLinks" : [ "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/diffuser-museum360-xl-2.jpg?v=1649359091" ],
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Museum360 XL Diffuser by Aroma360"
+    } ],
+    "description" : "The Museum360XL is the gold standard of HVAC scenting, covering multiple areas without the use of residue-creating, unnatural substances and sprays. Utilizing safe Cold Air Diffusion technology, the Museum360XL allows the user to create a total emersion experience through scent either in their home or business. The Museum360 XL’s state-of-the-art delivery system provides even and consistent fragrance distribution wherever it is used. Additionally, it distributes the scent in multiple areas at pre-selected concentration levels, all the while keeping the therapeutic properties of the essential oils. This diffuser is easy to install and integrate into existing HVAC systems and is a complete home or business fragrance distribution system. Manage when scenting occurs through an easy-to-use internal digital time. Supplement large spaces, such as entire homes, hotel floors, and mall wings, with the Museum360 HVAC Scent Diffuser. | Aroma360 Museum360 XL Scent Diffuser",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrance Accessories > Candle & Oil Warmers",
+    "id" : "online:en:CA:40223098503362",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/diffuser-museum360-xl-1.jpg?v=1649359090",
+    "itemGroupId" : "6204164440258",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/museum360-xl-scent-diffuser?variant=40223098503362",
+    "mpn" : "ARFGMUSM",
+    "offerId" : "40223098503362",
+    "price" : {
+      "currency" : "USD",
+      "value" : "1499.95"
+    },
+    "productTypes" : [ "Scent Diffusers > Diffusers & Oils > Diffusers > Museum360 Diffusers" ],
+    "salePrice" : {
+      "currency" : "USD",
+      "value" : "1124.96"
+    },
+    "shippingWeight" : {
+      "unit" : "lb",
+      "value" : 28.0
+    },
+    "source" : "feed",
+    "targetCountry" : "CA",
+    "title" : "Aroma360 Museum360 XL Scent Diffuser",
+    "feedLabel" : "CA"
+  }, {
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Smooth Operator Oil by Aroma360"
+    } ],
+    "description" : "Inspired by: Acqualina Resort® Balance is often an unobtainable illusion many long for but never reach - until now. By incorporating the brut, musky scents of white sandalwood and cedarwood into the delicate notes belonging to lovely violet and jasmine, harmonize your space with the aromas of nature. Top Note - White Peach, Bergamot, LilacMiddle Note - Ylang Ylang, Calone, Cyclamen. Base Note - Musk, Sandalwood, Vanilla Bean, Patchouli | Aroma360 Smooth Operator Scented Oil size 120mL",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances > Fragrance Oil",
+    "id" : "online:en:US:38114006073538",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/SmoothOperator.jpg?v=1663252090",
+    "itemGroupId" : "6204161097922",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/white-sandalwood-scent?variant=38114006073538",
+    "mpn" : "ARFG120FOSMTHOP",
+    "offerId" : "38114006073538",
+    "price" : {
+      "currency" : "USD",
+      "value" : "74.99"
+    },
+    "productTypes" : [ "Scent Diffusers > Diffusers & Oils > Oils > Collections > Woodsy Collection Oils" ],
+    "salePrice" : {
+      "currency" : "USD",
+      "value" : "67.49"
+    },
+    "shippingWeight" : {
+      "unit" : "oz",
+      "value" : 5.0
+    },
+    "sizes" : [ "120mL" ],
+    "source" : "feed",
+    "targetCountry" : "US",
+    "title" : "Aroma360 Smooth Operator Scented Oil size 120mL",
+    "feedLabel" : "US"
+  }, {
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Champagne Supernova Oil by Aroma360"
+    } ],
+    "description" : "Inspired by: Mandara® Spa The scents of the jungle await with the bold blend of beautiful bamboo and gentle white ginger that come together to deliver a smooth yet satisfying aroma. Jasmine petals swirled with hints of vetiver and soft musk create a unique addition to this crisp blend. Top Note - Lemon, Bamboo, GingerMiddle Note - Jasmine, Lilac, Geranium. Base Note - Vetiver, Sandalwood, Amber | Aroma360 Champagne Supernova Scented Oil size 120mL",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances > Fragrance Oil",
+    "id" : "online:en:CA:38114012332226",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/ChampaignSupernova.jpg?v=1663248201",
+    "itemGroupId" : "6204163588290",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/champagne-supernova-scent?variant=38114012332226",
+    "mpn" : "ARFG120FOCHMPGNSPRNV",
+    "offerId" : "38114012332226",
+    "price" : {
+      "currency" : "USD",
+      "value" : "74.99"
+    },
+    "productTypes" : [ "Scent Diffusers > Diffusers & Oils > Oils > Collections > Spa Collection Oils" ],
+    "salePrice" : {
+      "currency" : "USD",
+      "value" : "67.49"
+    },
+    "shippingWeight" : {
+      "unit" : "oz",
+      "value" : 5.0
+    },
+    "sizes" : [ "120mL" ],
+    "source" : "feed",
+    "targetCountry" : "CA",
+    "title" : "Aroma360 Champagne Supernova Scented Oil size 120mL",
+    "feedLabel" : "CA"
+  }, {
+    "availability" : "in stock",
+    "brand" : "Aroma360",
+    "channel" : "online",
+    "condition" : "new",
+    "contentLanguage" : "en",
+    "customAttributes" : [ {
+      "name" : "short title",
+      "value" : "Dream On Oil by Aroma360"
+    } ],
+    "description" : "Inspired by: Westin Hotels® A truly cleansing and revitalizing scent, serene white tea and healing aloe vera combine to create an uplifting aroma with a naturally pleasant undertone. Warm, earthy cedar welcomes your senses as they are greeted by luscious vanilla for a well-rounded aroma. Top Note - White Tea, Aloe Vera, GingerMiddle Note - Cedarwood, Vanilla, Amber. Base Note - Lily, Sandalwood, Musk | Aroma360 Dream On Scented Oil size 120mL",
+    "googleProductCategory" : "Home & Garden > Decor > Home Fragrances > Fragrance Oil",
+    "id" : "online:en:CA:38114010988738",
+    "imageLink" : "https://cdn.shopify.com/s/files/1/0517/2402/6050/products/DreamOn.jpg?v=1663244662",
+    "itemGroupId" : "6204163162306",
+    "kind" : "content#product",
+    "link" : "https://www.aroma360.com/products/dream-on-scent?variant=38114010988738",
+    "mpn" : "ARFG120FODRMON",
+    "offerId" : "38114010988738",
+    "price" : {
+      "currency" : "USD",
+      "value" : "74.99"
+    },
+    "productTypes" : [ "Scent Diffusers > Diffusers & Oils > Oils > Collections > Fresh Collection Oils" ],
+    "salePrice" : {
+      "currency" : "USD",
+      "value" : "67.49"
+    },
+    "shippingWeight" : {
+      "unit" : "oz",
+      "value" : 5.0
+    },
+    "sizes" : [ "120mL" ],
+    "source" : "feed",
+    "targetCountry" : "CA",
+    "title" : "Aroma360 Dream On Scented Oil size 120mL",
+    "feedLabel" : "CA"
+  } ]
+}
