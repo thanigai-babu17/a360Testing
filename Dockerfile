@@ -29,6 +29,15 @@ FROM maven:3.8.6-jdk-11
 ARG FIREFOX_VERSION=105.0
 RUN apt-get update -qqy \
     && apt-get -qqy install libgtk-3-0 libx11-xcb1 libdbus-glib-1-2 libxt6 libasound2 \
+    xvfb \
+    xauth \
+    x11vnc \
+    libxtst6 \
+    libxss1 \
+    libgconf-2-4 \
+    libnss3 \
+    libatk-bridge2.0-0 \
+    libdbus-glib-1-2 \
     && rm -rf /var/lib/apt/lists/* /var/cache/apt/* \
     && wget -q -O /tmp/firefox.tar.bz2 https://download-installer.cdn.mozilla.net/pub/firefox/releases/$FIREFOX_VERSION/linux-x86_64/en-US/firefox-$FIREFOX_VERSION.tar.bz2 \
     && tar xjf /tmp/firefox.tar.bz2 -C /opt \
