@@ -27,6 +27,8 @@ WORKDIR /app
 # Copy the source code into the container
 COPY . .
 
-COPY ./Drivers/geckodriver.exe /app/
+# Set the custom path for GeckoDriver
+ENV PATH="/usr/src/app/Drivers/geckodriver.exe"
+
 # Run the tests with Firefox
 CMD mvn test -Dbrowser=firefox
