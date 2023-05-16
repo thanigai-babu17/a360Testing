@@ -20,9 +20,14 @@ WORKDIR /usr/src/app
 COPY . .
 
 # Install necessary dependencies
+USER root
 RUN apt-get update \
     && apt-get install -y --no-install-recommends openjdk-11-jdk maven \
-    && rm -rf /var/lib/apt/lists/*
+    && rm -rf /var/lib/apt/lists/* \
+    && mkdir -p /var/lib/apt/lists/partial \
+    && apt-get clean \
+    && apt-get autoclean
+USER seluser
 
 # Set the PATH to include GeckoDriver
 ENV PATH="/usr/src/app/Driver:${PATH}"
