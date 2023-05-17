@@ -1,8 +1,5 @@
 FROM maven:3.8.6-jdk-11
 
-# Set the port number
-ENV PORT 8080
-
 ARG FIREFOX_VERSION=105.0
 RUN apt-get update -qqy \
     && apt-get -qqy install libgtk-3-0 libx11-xcb1 libdbus-glib-1-2 libxt6 libasound2 \
@@ -39,9 +36,6 @@ COPY . .
 # Set the display and provide executable permissions to run.sh
 # ENV DISPLAY :99
 # RUN chmod +x run.sh
-
-# Expose the desired port
-EXPOSE $PORT
 
 # Run the tests with Firefox using Xvfb
 CMD mvn -X test
