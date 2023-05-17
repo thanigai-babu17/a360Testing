@@ -1,0 +1,6 @@
+#commands to run in local cd into project dir and run
+#build
+sudo docker build -t a360-test .
+
+# to run
+sudo docker run --rm a360-test mvn clean install
