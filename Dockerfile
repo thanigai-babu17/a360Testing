@@ -68,9 +68,9 @@ WORKDIR /app
 COPY . .
 
 ENV DISPLAY :99
-RUN chmod a+x /run.sh
+RUN chmod a+x run.sh
 
 # Run the tests with Firefox
-CMD ["/bin/bash", "-c", "/run.sh && mvn -X test -Dbrowser=firefox"]
+CMD ["/bin/bash", "-c", "run.sh && mvn -X test -Dbrowser=firefox"]
 
 
