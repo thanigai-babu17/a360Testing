@@ -1,11 +1,11 @@
 steps:
   # Step 1: Build the Docker image with Maven and Firefox dependencies
   - name: "gcr.io/cloud-builders/docker"
-    args: ["build", "-t", "my-app-image", "."]
+    args: ["build", "-t", "gcr.io/aroma-gfunc/a360-tests", "."]
 
-  # Step 2: Run the tests inside the Docker container
+  # Step 2: Push the Docker image to Google Container Registry (GCR)
   - name: "gcr.io/cloud-builders/docker"
-    args: ["run", "--rm", "my-app-image", "mvn", "clean", "install"]
+    args: ["push", "gcr.io/aroma-gfunc/a360-tests"]
 
 options:
   logging: CLOUD_LOGGING_ONLY
