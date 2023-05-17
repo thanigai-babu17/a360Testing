@@ -34,8 +34,8 @@ WORKDIR /app
 COPY . .
 
 # Set the display and provide executable permissions to run.sh
-ENV DISPLAY :99
-RUN chmod +x run.sh
+# ENV DISPLAY :99
+# RUN chmod +x run.sh
 
 # Run the tests with Firefox using Xvfb
-CMD xvfb-run -s "-screen 0 1024x768x24" bash -c "./run.sh && mvn -X test -Dbrowser=firefox"
+CMD mvn -X test
