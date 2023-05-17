@@ -33,9 +33,8 @@ WORKDIR /app
 # Copy the source code into the container
 COPY . .
 
-# Set the display and provide executable permissions to run.sh
-# ENV DISPLAY :99
-# RUN chmod +x run.sh
+# Expose port 8080
+EXPOSE 8080
 
 # Run the tests with Firefox using Xvfb
-CMD mvn -X test
+CMD ["mvn", "-X", "test"]
