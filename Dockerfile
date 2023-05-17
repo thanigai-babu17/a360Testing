@@ -1,14 +1,5 @@
 FROM maven:3.8.6-jdk-11
 
-# Install Chrome and dependencies
-# RUN apt-get update -qqy \
-#     && apt-get -qqy install wget gnupg \
-#     && wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
-#     && echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list \
-#     && apt-get update -qqy \
-#     && apt-get -qqy install google-chrome-stable \
-#     && rm -rf /var/lib/apt/lists/* /var/cache/apt/*
-
 ARG FIREFOX_VERSION=105.0
 RUN apt-get update -qqy \
     && apt-get -qqy install libgtk-3-0 libx11-xcb1 libdbus-glib-1-2 libxt6 libasound2 \
@@ -28,26 +19,47 @@ RUN apt-get update -qqy \
     && mv /opt/firefox /opt/firefox-$FIREFOX_VERSION \
     && ln -s /opt/firefox-$FIREFOX_VERSION/firefox /usr/bin/firefox
 
-# Create the Drivers directory
-RUN mkdir -p /app/Drivers/
-
-# # Set ChromeDriver version
-# ARG CHROME_DRIVER_VERSION=92.0.4515.107
-
-# # Download and extract ChromeDriver
-# RUN wget -q -O /tmp/chromedriver.zip https://chromedriver.storage.googleapis.com/$CHROME_DRIVER_VERSION/chromedriver_linux64.zip \
-#     && unzip /tmp/chromedriver.zip -d /app/Drivers/ \
-#     && rm /tmp/chromedriver.zip \
-#     && chmod +x /app/Drivers/chromedriver
-
 # Geckodriver
 
 ARG GECKODRIVER_VERSION=v0.33.0
 RUN wget -q -O /tmp/geckodriver.tar.gz https://github.com/mozilla/geckodriver/releases/download/$GECKODRIVER_VERSION/geckodriver-$GECKODRIVER_VERSION-linux64.tar.gz \
     && tar xzf /tmp/geckodriver.tar.gz -C /opt \
     && rm /tmp/geckodriver.tar.gz \
-    && mv /tmp/geckodriver /app/Drivers/geckodriver-$GECKODRIVER_VERSION \
+    && mv /opt/geckodriver /opt/geckodriver-$GECKODRIVER_VERSION \
     && ln -s /opt/geckodriver-$GECKODRIVER_VERSION /usr/bin/geckodriver
+
+# # Google Chrome
+
+# ARG CHROME_VERSION=112.0.5615.49-1
+# RUN apt-get update -qqy \
+#     && apt-get -qqy install gpg unzip \
+#     && wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
+#     && echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list \
+#     && apt-get update -qqy \
+#     && apt-get -qqy install google-chrome-stable=$CHROME_VERSION \
+#     && rm /etc/apt/sources.list.d/google-chrome.list \
+#     && rm -rf /var/lib/apt/lists/* /var/cache/apt/* \
+#     && sed -i 's/"$HERE\/chrome"/"$HERE\/chrome" --no-sandbox/g' /opt/google/chrome/google-chrome
+
+# # ChromeDriver
+
+# ARG CHROME_DRIVER_VERSION=112.0.5615.49
+# RUN wget -q -O /tmp/chromedriver.zip https://chromedriver.storage.googleapis.com/$CHROME_DRIVER_VERSION/chromedriver_linux64.zip \
+#     && unzip /tmp/chromedriver.zip -d /opt \
+#     && rm /tmp/chromedriver.zip \
+#     && mv /opt/chromedriver /opt/chromedriver-$CHROME_DRIVER_VERSION \
+#     && chmod 755 /opt/chromedriver-$CHROME_DRIVER_VERSION \
+#     && ln -s /opt/chromedriver-$CHROME_DRIVER_VERSION /usr/bin/chromedriver
+
+# COPY start-xvfb.sh /usr/local/bin/
+# RUN chmod +x /usr/local/bin/start-xvfb.sh
+
+#!/bin/bash
+# RUN Xvfb :99 -screen 0 1024x768x24 -ac +extension RANDR +extension RENDER -noreset &
+# RUN export DISPLAY=:99
+# RUN exec "$@"
+
+RUN whereis geckodriver
 
 # Set the working directory
 WORKDIR /app
@@ -55,8 +67,10 @@ WORKDIR /app
 # Copy the source code into the container
 COPY . .
 
-# Verify if chromedriver file exists
-RUN ls -la /app/Drivers/
+ENV DISPLAY :99
+RUN chmod a+x /run.sh
 
-# Run the tests with Chrome
-CMD ["mvn", "test", "-Dbrowser=firefox"]
+# Run the tests with Firefox
+CMD ["/bin/bash", "-c", "/run.sh && mvn -X test -Dbrowser=firefox"]
+
+
