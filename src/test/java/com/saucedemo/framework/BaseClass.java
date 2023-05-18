@@ -53,7 +53,7 @@ public class BaseClass {
 			driver = new ChromeDriver(options);
 		} else if (br.contains("firefox")) {
 			FirefoxOptions options = new FirefoxOptions();
-			options.addPreference("webdriver.firefox.port", 8080);
+			options.addPreference("webdriver.firefox.port", "8080");
 			if (br.contains("headless")) {
 				options.addArguments("--headless");
 			}
